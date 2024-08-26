@@ -32,6 +32,11 @@
       width: 101%;
       margin-bottom: 20px;
     }
+    .card-container {
+      overflow: auto;
+      width: 75%;
+      height: 60%;
+    }
     h1 {
       font-size: 24px;
       text-align: center;
@@ -137,6 +142,7 @@
     <a href="/settings.html" class="button">Settings</a>
     <a href="/credits.html" class="button">Credits</a>
   </div>
+  <div class="card-container">
   <div class="settings-container">
     <h1>Panic Key</h1>
     <div class="input-group">
@@ -175,6 +181,7 @@
         <span class="slider"></span>
       </label>
     </div>
+  </div>
   </div>
   <script>
     document.getElementById('saveSettingsButton').addEventListener('click', function () {
